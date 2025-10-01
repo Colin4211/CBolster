@@ -1,2 +1,3 @@
 # CBolster
-CBolster -- CPP Code Libraries
+CBolster -- CPP Libraries To Extend and Enhanc
+
