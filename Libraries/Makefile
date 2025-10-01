@@ -1,7 +1,7 @@
 #############################################################################
 ###
 ###     Filename: CBolster/Libraries/Makefile
-###    Generated: 2025\10\01-15:52:06 EST
+###    Generated: 2025\10\01-18:14:13 EST
 ###
 #############################################################################
 ###
@@ -74,13 +74,13 @@ help:
 ### Build
 ###
 
-build: __build_message 
+build: __build_message __build_subdir_CBBase 
 	-@
 
-build_Debug: __build_message_Debug 
+build_Debug: __build_message_Debug __build_subdir_CBBase_Debug 
 	-@
 
-build_Release: __build_message_Release 
+build_Release: __build_message_Release __build_subdir_CBBase_Release 
 	-@
 
 __build_message: 
@@ -91,6 +91,26 @@ __build_message_Debug:
 
 __build_message_Release: 
 	-@ CT_Printf -fc "#" "Building == CBolster - Libraries - [Release]" 
+
+
+#############################################################################
+### Build - Subdir - CBBase
+###
+
+__build_subdir_CBBase: 
+	-@if [ ! -d "CBBase" ] ; then CT_Printf -fc "#" "ERROR: Missing dir -- #cCBBase#c" 34 34 ; false ; fi ; 
+	-@if [ ! -f "CBBase/Makefile" ] ; then CT_Printf -fc "#" "ERROR: Missing file -- #cCBBase/Makefile#c" 34 34 ; false ; fi ; 
+	-@ $(MAKE) $(MAKEOPTIONS) -C "CBBase"  -f Makefile  build
+
+__build_subdir_CBBase_Debug: 
+	-@if [ ! -d "CBBase" ] ; then CT_Printf -fc "#" "ERROR: Missing dir -- #cCBBase#c" 34 34 ; false ; fi ; 
+	-@if [ ! -f "CBBase/Makefile" ] ; then CT_Printf -fc "#" "ERROR: Missing file -- #cCBBase/Makefile#c" 34 34 ; false ; fi ; 
+	-@ $(MAKE) $(MAKEOPTIONS) -C "CBBase"  -f Makefile  build_Debug
+
+__build_subdir_CBBase_Release: 
+	-@if [ ! -d "CBBase" ] ; then CT_Printf -fc "#" "ERROR: Missing dir -- #cCBBase#c" 34 34 ; false ; fi ; 
+	-@if [ ! -f "CBBase/Makefile" ] ; then CT_Printf -fc "#" "ERROR: Missing file -- #cCBBase/Makefile#c" 34 34 ; false ; fi ; 
+	-@ $(MAKE) $(MAKEOPTIONS) -C "CBBase"  -f Makefile  build_Release
 
 
 #############################################################################
@@ -165,11 +185,16 @@ build_LinuxI64_Release:
 ### Clean
 ###
 
-clean: __clean_message 
+clean: __clean_message __clean_subdir_CBBase 
 	-@
 
 __clean_message: 
 	-@ CT_Printf -fc "#" "Cleaning == CBolster - Libraries" 
+
+__clean_subdir_CBBase: 
+	-@if [ ! -d "CBBase" ] ; then CT_Printf -fc "#" "ERROR: Missing dir -- #cCBBase#c" 34 34 ; false ; fi ; 
+	-@if [ ! -f "CBBase/Makefile" ] ; then CT_Printf -fc "#" "ERROR: Missing file -- #cCBBase/Makefile#c" 34 34 ; false ; fi ; 
+	-@ $(MAKE) $(MAKEOPTIONS) -C "CBBase"  -f Makefile  clean
 
 clean_Generic: 
 	-@if [ ! -f "Makefile-Generic" ] ; then CT_Printf -fc "#" "ERROR: Missing file -- #cMakefile-Generic#c" 34 34 ; false ; fi ; 
