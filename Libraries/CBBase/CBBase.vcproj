@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="Windows-1252" ?>
+<VisualStudioProject ProjectType="Visual C++" Version="9.00" Name="CBBase" ProjectGUID="{FE186E83-D6F0-404E-9213-24021D5117AA}" RootNamespace="CBBase" Keyword="Win32Proj" TargetFrameworkVersion="196613">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles/>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="Win32_Debug" IntermediateDirectory="Win32_Debug" CharacterSet="1" WholeProgramOptimization="0" EnableManagedIncrementalBuild="0" ConfigurationType="4">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool Name="VCCLCompilerTool" Optimization="0" AdditionalIncludeDirectories="" PreprocessorDefinitions="CEXTEND_DEBUG;WIN32;_DEBUG;_LIB" MinimalRebuild="false" BasicRuntimeChecks="3" RuntimeLibrary="1" UsePrecompiledHeader="2" PrecompiledHeaderThrough="CBBase.h" PrecompiledHeaderFile="Win32_Debug/CBBase_Win32_d.pch" WarningLevel="3" DebugInformationFormat="3" ProgramDataBaseFileName="Win32_Debug/CBBase_Win32_d.pdb"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="VCLibrarianTool" OutputFile="Win32_Debug\CBBase_Win32_d.lib"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool" CommandLine="Update.bat"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" OutputDirectory="Win64_Debug" IntermediateDirectory="Win64_Debug" CharacterSet="1" WholeProgramOptimization="0" EnableManagedIncrementalBuild="0" ConfigurationType="4">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TargetEnvironment="3"/>
+			<Tool Name="VCCLCompilerTool" Optimization="0" AdditionalIncludeDirectories="" PreprocessorDefinitions="CEXTEND_DEBUG;WIN32;_DEBUG;_LIB" MinimalRebuild="false" BasicRuntimeChecks="3" RuntimeLibrary="1" UsePrecompiledHeader="2" PrecompiledHeaderThrough="CBBase.h" PrecompiledHeaderFile="Win64_Debug/CBBase_Win64_d.pch" WarningLevel="3" DebugInformationFormat="3" ProgramDataBaseFileName="Win64_Debug/CBBase_Win64_d.pdb"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="VCLibrarianTool" OutputFile="Win64_Debug\CBBase_Win64_d.lib"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool" CommandLine="Update.bat"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="Win32_Release" IntermediateDirectory="Win32_Release" CharacterSet="1" WholeProgramOptimization="0" EnableManagedIncrementalBuild="0" ConfigurationType="4">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool Name="VCCLCompilerTool" Optimization="2" EnableIntrinsicFunctions="true" AdditionalIncludeDirectories="" PreprocessorDefinitions="CEXTEND_RELEASE;NDEBUG;WIN32;_LIB;_RELEASE" MinimalRebuild="false" RuntimeLibrary="0" EnableFunctionLevelLinking="true" UsePrecompiledHeader="2" PrecompiledHeaderThrough="CBBase.h" PrecompiledHeaderFile="Win32_Release/CBBase_Win32.pch" WarningLevel="3" DebugInformationFormat="0"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="VCLibrarianTool" OutputFile="Win32_Release\CBBase_Win32.lib"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool" CommandLine="Update.bat"/>
+		</Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="Win64_Release" IntermediateDirectory="Win64_Release" CharacterSet="1" WholeProgramOptimization="0" EnableManagedIncrementalBuild="0" ConfigurationType="4">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool" TargetEnvironment="3"/>
+			<Tool Name="VCCLCompilerTool" Optimization="2" EnableIntrinsicFunctions="true" AdditionalIncludeDirectories="" PreprocessorDefinitions="CEXTEND_RELEASE;NDEBUG;WIN32;_LIB;_RELEASE" MinimalRebuild="false" RuntimeLibrary="0" EnableFunctionLevelLinking="true" UsePrecompiledHeader="2" PrecompiledHeaderThrough="CBBase.h" PrecompiledHeaderFile="Win64_Release/CBBase_Win64.pch" WarningLevel="3" DebugInformationFormat="0"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool Name="VCLibrarianTool" OutputFile="Win64_Release\CBBase_Win64.lib"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool" CommandLine="Update.bat"/>
+		</Configuration>
+	</Configurations>
+	<References/>
+	<Files>
+		<Filter Name="Source Files" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="CBBase.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool Name="VCCLCompilerTool" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\CBBase_Float128.cpp"/>
+			<File RelativePath=".\CBBase_Float32.cpp"/>
+			<File RelativePath=".\CBBase_Float64.cpp"/>
+			<File RelativePath=".\CBBase_Float80_I32.cpp"/>
+			<File RelativePath=".\CBBase_Float80_I64.cpp"/>
+			<File RelativePath=".\CBBase_FloatClass.cpp"/>
+			<File RelativePath=".\CBBase_GetLibraryVersionInfo.cpp"/>
+			<File RelativePath=".\CBBase_Integers.cpp"/>
+			<File RelativePath="Private_CBBase_VersionStruct.cpp"/>
+		</Filter>
+		<Filter Name="Header Files" Filter="h;hpp;hxx;hm;inl;inc;xsd" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath=".\CBBase.h"/>
+			<File RelativePath=".\CBBase_DequeTypes.h"/>
+			<File RelativePath=".\CBBase_Float128.h"/>
+			<File RelativePath=".\CBBase_Float32.h"/>
+			<File RelativePath=".\CBBase_Float64.h"/>
+			<File RelativePath=".\CBBase_Float80_I32.h"/>
+			<File RelativePath=".\CBBase_Float80_I64.h"/>
+			<File RelativePath=".\CBBase_FloatClass.h"/>
+			<File RelativePath=".\CBBase_Floats.h"/>
+			<File RelativePath=".\CBBase_GetLibraryVersionInfo.h"/>
+			<File RelativePath=".\CBBase_Integers.h"/>
+			<File RelativePath=".\CBBase_Linux.h"/>
+			<File RelativePath=".\CBBase_ListTypes.h"/>
+			<File RelativePath=".\CBBase_MSWindows.h"/>
+			<File RelativePath=".\CBBase_Platform.h"/>
+			<File RelativePath=".\CBBase_SetTypes.h"/>
+			<File RelativePath=".\CBBase_StdC.h"/>
+			<File RelativePath=".\CBBase_StdCPP.h"/>
+			<File RelativePath=".\CBBase_VectorTypes.h"/>
+			<File RelativePath=".\CBBase_VersionInfo.h"/>
+			<File RelativePath=".\CBBase_VersionNumber.h"/>
+			<File RelativePath=".\Private_CBBase_VersionStruct.h"/>
+		</Filter>
+		<Filter Name="Misc">
+			<File RelativePath=".\CT_ProjectConfig.ini"/>
+			<File RelativePath=".\CT_ProjectConfig.MakeCfg"/>
+			<File RelativePath=".\DoBuild.sh"/>
+			<File RelativePath=".\DoReconfig.sh"/>
+		</Filter>
+		<Filter Name="Autoset_BuildLogs">
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Win32.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Win32.Release.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Win64.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Win64.Release.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Generic.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.Generic.Release.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxARM.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxARM.Release.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxI32.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxI32.Release.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxI64.Debug.log"/>
+			<File RelativePath="..\..\Output\BuildLogs\CBolster_Libraries_CBBase.LinuxI64.Release.log"/>
+		</Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
