@@ -5,7 +5,7 @@
 //  Auto Generated:
 //               Tool Name - CT_VersionTool
 //            Tool Version - CToolsDev-v4.1.1.84
-//      Generate Timestamp - 2025\10\01-23:33:38 utc
+//      Generate Timestamp - 2025\10\02-00:08:58 utc
 //
 /////////////////////////////////////////////////////////////////////////////
 
@@ -45,7 +45,7 @@ CBBase_VersionInfo  Private_CBBaseVersion_VersionInfo =
         "Colin Goodall",
         "Copyright (c) 1995, Colin Goodall.",
         "Copyright (c) 1995, Colin Goodall.",
-        "2025/10/01-23:33:38 utc -- 2025/10/01-19:33:38 local",
+        "2025/10/02-00:08:58 utc -- 2025/10/01-20:08:58 local",
     };
 
 

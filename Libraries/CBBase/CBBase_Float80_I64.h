@@ -23,9 +23,6 @@
 #ifndef _CBBase_Float80_I64_h_
 #define _CBBase_Float80_I64_h_
 
-namespace CBBase
-{
-
 #if defined(CBOLSTER_PLATFORM_TYPE_LINUX_I64)
 
 /////////////////////////////////////////////////////////////////////////////
@@ -36,6 +33,10 @@ namespace CBBase
 typedef long double                 Float80;
 #define Float80_SIZEOF              (sizeof(Float80))
 #define Float80_CONSTANT(nVal)      (static_cast<Float80>(nVal##L))
+
+
+namespace CBBase
+{
 
 typedef union tagFloat80_Info
 {
@@ -222,6 +223,7 @@ template <>
         Float_Types( void ) { return; };
     };
 
+}; // namespace CBBase
 
 //.
 
@@ -231,7 +233,6 @@ template <>
 
 /////////////////////////////////////////////////////////////////////////////
 
-}; // namespace CBBase
 
 #endif // _CBBase_Float80_I64_h_
 
